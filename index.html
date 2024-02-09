@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C600%2C700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="hr-lines">YAY! It’s BOGO</h1>
+
+        <!-- Card 1 -->
+        <div class="cards" id="card1">
+            <div class="card-info">
+                <div class="card-left">
+                    <input id="radio1" name="accordion" type="radio">
+                    <div class="unit-details">
+                        <h3>1 Unit <span class="discount-price">10.00 USD</span></h3>
+                        <p>Standard Price</p>
+                    </div>
+                </div>
+                <div class="card-cost">
+                    <h3>$10.00 USD</h3>
+                    <p>$24.00 USD</p>
+                </div>
+            </div>
+            <div class="card-items">
+                <!-- Card 1 items -->
+                <div class="numbers">
+                    <h4 style="visibility: hidden;">#0</h4>
+                    <h4>#1</h4>
+                </div>
+                <div class="size">
+                    <p>Size</p>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+                <div class="color">
+                    <p>Colour</p>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards" id="card2" style="position: relative;">
+            <img src="./assets/rectangle.jpg" id="img"/>
+            <h2>MOST POPULAR</h2>
+            <div class="card-info">
+                <div class="card-left">
+                    <input id="radio2" name="accordion" type="radio">
+                    <div class="unit-details">
+                        <h3>2 Unit <span class="discount-price">18.00 USD</span></h3>
+                        <p>Standard Price</p>
+                    </div>
+                </div>
+                <div class="card-cost">
+                    <h3>$18.00 USD</h3>
+                    <p>$24.00 USD</p>
+                </div>
+            </div>
+            <div class="card-items">
+                <div class="numbers">
+                    <h4 style="visibility: hidden;">#0</h4>
+                    <h4>#1</h4>
+                    <h4 style="margin-top: 0.5rem;">#2</h4>
+                </div>
+                <div class="size">
+                    <p>Size</p>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+                <div class="color">
+                    <p>Colour</p>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="cards" id="card3">
+            <div class="card-info">
+                <div class="card-left">
+                    <input id="radio3" name="accordion" type="radio">
+                    <div class="unit-details">
+                        <h3>3 Unit <span class="discount-price">24.00 USD</span></h3>
+                        <p>Standard Price</p>
+                    </div>
+                </div>
+                <div class="card-cost">
+                    <h3>$24.00 USD</h3>
+                    <p>$24.00 USD</p>
+                </div>
+            </div>
+            <div class="card-items">
+                <div class="numbers">
+                    <h4 style="visibility: hidden;">#0</h4>
+                    <h4>#1</h4>
+                    <h4 style="margin-top: 0.5rem;">#2</h4>
+                    <h4 style="margin-top: 0.5rem;">#3</h4>
+                </div>
+                <div class="size">
+                    <p>Size</p>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+                <div class="color">
+                    <p>Colour</p>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="total">
+                <h2>Free Delivery</h2>
+                <h3>Total : $<span id="totalAmount">0.00</span> USD</h3>
+            </div>
+            <div class="btn">
+                <button>+ Add to Cart</button>
+                <h4>@ Powered by Pumper</h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
